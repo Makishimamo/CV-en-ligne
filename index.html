@@ -6,13 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Mon CV en ligne">
     <link rel="shortcut icon" href="./DOC/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="./ASSETS/style.css">
 </head>
 <body>
-    <header>
+    <header class="en-tete">
         <a href="./DOC/photo_cv.jpg"></a><img src="./DOC/photo_cv.jpg" alt="Photo de profil">
         <h1>MAXIMIN PONY</h1>
         <p>Développeur web junior</p>
-        <nav>
+        <nav class="menu">
             <address>
                 <a href="https://www.google.fr/maps/"><p>12 Rue du faux monailleur, 64000 Pau</p></a>
                 <a href="mailto:youngdev@gmail.com"><p>youngdev@gmail.com</p></a>
@@ -21,8 +22,8 @@
         </nav>
     </header>
     <main>
-        <section>
-                <h2>Expériences professionnelles</h2>
+        <section class="main-content">
+                <h2 class="main-content__titre">Expériences professionnelles</h2>
                     <h3>Moniteur-chef EPMS au Ministère des Armées</h3>
                         <p>Du 01/07/2021 à aujourd'hui</p>
                         <ul>
@@ -41,14 +42,14 @@
                             <li>Appliquer les premiers soins</li>
                             <li>Secours en mer</li>
                         </ul>
-                <h2>Diplômes/Formations</h2>
+                <h2 class="main-content__titre">Diplômes/Formations</h2>
                     <h3>Développeur web et web mobile</h3>
                         <p>Du 01/09/2023 à en cours</p>
                         <p>A mon domicile</p>
                     <h3>Chef d'équipe éducateur sportif opérationel (RNCP35577)</h3>
                         <p>Du 01/04/2021 au 01/07/2021</p>
                         <p>Au Centre National des Sports de la Défense</p>
-                <h2>Compétences</h2>
+                <h2 class="main-content__titre">Compétences</h2>
                     <ul>
                         <li>HTML 5 - Débutant</li>
                         <li>CSS 5 - Débutant</li>
@@ -56,21 +57,21 @@
                     </ul>
             </article>
         </section>
-        <section>
+        <section class="barre-lateral">
             <aside>
-                <h2>A propos</h2>
+                <h2 class="barre-lateral__titre">A propos</h2>
                     <p>
                         J'ai passé les 12 dernières années à me perfectionner dans le domaine de la préparation physique au profit du Ministère des Armées afin de former les prochaines générations de soldats ou de perfectionner et d'entretenir ceux déjà en poste.
                         J'ai acquis une grande maitrise dans les domaines de la pédagogique, du management ou encore de l'organisation. Je souhaite actuellement me réorienter et m'ouvrir au secteur de l'informatique qui me passionne et ainsi rejoindre le monde civil.
                         J'ai à coeur de mettre à profit toutes les qualitées que j'ai pu développer dans le secteur militaire dans cette nouvelle activité qu'est le développement web et web mobile.
                     </p>
-                <h2>Langues parlées</h2>
+                <h2 class="barre-lateral__titre">Langues parlées</h2>
                     <ul>
                         <li>Français - Langue maternelle</li>
                         <li>Anglais - Scolaire, niveau BAC</li>
                         <li>Espagnole - Scolaire, niveau BAC</li>
                     </ul>
-                <h2>Centres d'intérêt</h2>
+                <h2 class="barre-lateral__titre">Centres d'intérêt</h2>
                     <ul>
                         <li>L'informatique</li>
                         <li>Le sport</li>
@@ -79,11 +80,11 @@
             </aside>
         </section>
     </main>
-    <footer>
+    <footer class="pied-page">
         <a href="https://fr.linkedin.com"><img src="./DOC/linkedin.svg" alt="Icone linkedin"></a>
         <a href="https://twitter.com"><img src="./DOC/square-twitter.svg" alt="Icone twitter"></a>
         <a href="https://www.github.com"><img src="./DOC/square-github.svg" alt="Icone GitHub"></a>
-        <small>Dernière mise à jour le<time datatime="2023-12-02"> 02/12/2023 </time> </small>
+        <p><small>Dernière mise à jour le<time datatime="2023-12-02"> 02/12/2023 </time>.</small></p>
     </footer>
 </body>
 </html>
