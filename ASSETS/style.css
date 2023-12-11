@@ -1,0 +1,48 @@
+.all {
+    width: 1160px;
+    height: auto;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.en-tete {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.menu__contact {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: baseline;
+}
+
+.menu__link {
+    flex-basis: 33%;
+}
+
+.centre {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    align-items: start;
+    gap: 50px 100px;
+}
+
+.main-content {
+    flex-basis: 66%;
+}
+
+.barre-lateral {
+    flex-basis: 33%;
+}
+
+.pied-page {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
