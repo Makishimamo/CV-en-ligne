@@ -14,9 +14,10 @@
 }
 
 .menu__contact {
+    width: 1160px;
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-evenly;
     align-items: baseline;
 }
 
@@ -36,7 +37,7 @@
     flex-basis: 66%;
 }
 
-.barre-lateral {
+.side-bar {
     flex-basis: 33%;
 }
 
