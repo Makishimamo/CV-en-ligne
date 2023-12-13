@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400&display=swap');
+
+@font-face {
+    font-family: "Raleway";
+    src: url('../ASSETS/FONTS/Raleway/Raleway-Regular.woff'), url('../ASSETS/FONTS/Raleway/Raleway-Bold.woff'), url('../ASSETS/FONTS/Raleway/Raleway-Italic.woff');
+    src: url('../ASSETS/FONTS/Raleway/Raleway-Regular.ttf') format('truetype'), url('../ASSETS/FONTS/Raleway/Raleway-Bold.ttf') format('truetype'), url('../ASSETS/FONTS/Raleway/Raleway-Italic.ttf') format('truetype');
+}
+
+.all {
+    width: 1160px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: "Raleway", serif;
+    font-size: 1rem;
+}
+
+.en-tete {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #782221;
+    color: white;
+}
+.en-tete__img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    box-shadow: 2px 2px 4px #888888;
+}
+
+.menu {
+    width: 1160px;
+    background-color: #2c1d27;
+}
+.menu__contact {
+    padding: 0px 20px 0px 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items: center;
+}
+.menu__adresse {
+    flex-basis: 387px;
+    text-align: start;
+    text-decoration: none;
+    color: white;
+}
+.menu__mail {
+    flex-basis: 387px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+}
+.menu__tel {
+    flex-basis: 387px;
+    text-align: end;
+    text-decoration: none;
+    color: white;
+}
+
+.centre {
+    width: 1160px;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.main-content {
+    padding: 0px 20px 0px 20px;
+    flex-basis: 67%;
+    border-right: thin solid black;
+}
+.main-content__titre {
+    background-color: #dbc2a4;
+    border-left: 5px solid #782221;
+    font-family: "Lato", sans-serif;
+}
+.main-content__sous-titre {
+    font-weight: bold;
+}
+
+.side-bar {
+    flex-basis: 33%;
+    background-color: #782221;
+}
+.side-bar__propos {
+    padding: 0px 20px 0px 20px;
+    text-indent: 40px;
+    text-align: justify;
+    text-justify: inter-word;
+    color: white;
+}
+.side-bar__titre {
+    padding-left: 20px;
+    background-color: #dbc2a4;
+    font-family: 'Lato', sans-serif;
+}
+.side-bar__list {
+    color: white;
+}
+
+.pied-page {
+    width: 1160px;
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #782221;
+}
+.pied-page__img {
+    width: 50PX;
+    height: 50px;
+}
+
+.pied-page__img:hover {
+    opacity: 0.5;
+}
+.link:hover {
+    text-decoration: underline;
+}
+.menu__adresse:hover {
+    border-bottom: 2px, solid;
+    text-decoration: underline;
+}
+.menu__mail:hover {
+    border-bottom: 2px, solid;
+    text-decoration: underline;
+}
+.menu__tel:hover {
+    border-bottom: 2px, solid;
+    text-decoration: underline;
+}
