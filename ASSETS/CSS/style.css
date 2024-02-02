@@ -31,9 +31,13 @@
     box-shadow: 0px 0px 10px #8f8787;
 }
 
-.menu {
+address {
     width: 1160px;
     background-color: #2c1d27;
+    flex-basis: 387px;
+    text-align: start;
+    text-decoration: none;
+    color: white;
 }
 .menu__contact {
     padding: 0px 20px 0px 20px;
@@ -42,12 +46,7 @@
     justify-content:space-between;
     align-items: center;
 }
-.menu__adresse {
-    flex-basis: 387px;
-    text-align: start;
-    text-decoration: none;
-    color: white;
-}
+
 .menu__mail {
     flex-basis: 387px;
     text-align: center;
@@ -64,7 +63,7 @@
 .centre {
     width: 1160px;
     display: flex;
-    flex-direction: row-reverse;
+    flex-direction: row;
 }
 
 .main-content {
@@ -118,7 +117,7 @@
 .pied-page__img:hover {
     opacity: 0.5;
 }
-.link:hover {
+a:hover {
     text-decoration: underline;
 }
 .en-tete__img:hover {
