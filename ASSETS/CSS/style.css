@@ -1,9 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400&display=swap');
+@import url(https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400&display=swap);
 
 @font-face {
-    font-family: "Raleway";
-    src: url('../ASSETS/FONTS/Raleway/Raleway-Regular.woff'), url('../ASSETS/FONTS/Raleway/Raleway-Bold.woff'), url('../ASSETS/FONTS/Raleway/Raleway-Italic.woff');
-    src: url('../ASSETS/FONTS/Raleway/Raleway-Regular.ttf') format('truetype'), url('../ASSETS/FONTS/Raleway/Raleway-Bold.ttf') format('truetype'), url('../ASSETS/FONTS/Raleway/Raleway-Italic.ttf') format('truetype');
+    font-family: 'Raleway';
+    src: url(../fonts/Raleway/Raleway-Regular.woff), url(../fonts/Raleway/Raleway-Bold.woff), url(../fonts/Raleway/Raleway-Italic.woff);
+    src: url(../fonts/Raleway/Raleway-Regular.ttf) format(truetype),url(../fonts/Raleway/Raleway-Bold.ttf) format(truetype), url(../fonts/Raleway/Raleway-Italic.ttf) format(truetype);
 }
 
 .all {
