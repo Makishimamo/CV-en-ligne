@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400&display=swap');
 
 @font-face {
-    font-family: "Raleway" ;
+    font-family: 'Raleway' ;
     src: url('../fonts/Raleway/Raleway-Regular.woff'), url('../fonts/Raleway/Raleway-Bold.woff'), url('../fonts/Raleway/Raleway-Italic.woff');
     src: url('../fonts/Raleway/Raleway-Regular.ttf') format(truetype),url('../fonts/Raleway/Raleway-Bold.ttf') format(truetype), url('../fonts/Raleway/Raleway-Italic.ttf') format(truetype);
 }
@@ -13,7 +13,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    font-family: "Raleway", sans-serif;
+    font-family: 'Raleway', sans-serif;
     font-size: 1rem;
 }
 
@@ -41,7 +41,6 @@ address {
     background-color: #2c1d27;
     flex-basis: 387px;
     text-align: start;
-    text-decoration: none;
     color: white;
     padding: 0px 20px 0px 20px;
     display: flex;
@@ -53,13 +52,11 @@ address {
 #mail {
     flex-basis: 387px;
     text-align: center;
-    text-decoration: none;
     color: white;
 }
 #tel {
     flex-basis: 387px;
     text-align: end;
-    text-decoration: none;
     color: white;
 }
 
@@ -108,9 +105,15 @@ footer {
     padding: 0px;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
     align-items: center;
     background-color: #782221;
+}
+
+footer div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
 }
 
 footer img {
