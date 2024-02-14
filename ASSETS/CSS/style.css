@@ -1,9 +1,9 @@
-@import url(https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400&display=swap);
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400&display=swap');
 
 @font-face {
-    font-family: 'Raleway';
-    src: url(../fonts/Raleway/Raleway-Regular.woff), url(../fonts/Raleway/Raleway-Bold.woff), url(../fonts/Raleway/Raleway-Italic.woff);
-    src: url(../fonts/Raleway/Raleway-Regular.ttf) format(truetype),url(../fonts/Raleway/Raleway-Bold.ttf) format(truetype), url(../fonts/Raleway/Raleway-Italic.ttf) format(truetype);
+    font-family: "Raleway" ;
+    src: url('../fonts/Raleway/Raleway-Regular.woff'), url('../fonts/Raleway/Raleway-Bold.woff'), url('../fonts/Raleway/Raleway-Italic.woff');
+    src: url('../fonts/Raleway/Raleway-Regular.ttf') format(truetype),url('../fonts/Raleway/Raleway-Bold.ttf') format(truetype), url('../fonts/Raleway/Raleway-Italic.ttf') format(truetype);
 }
 
 body {
@@ -23,6 +23,10 @@ header {
     align-items: center;
     background-color: #782221;
     color: white;
+}
+
+header span {
+    font-family: 'lato' , sans-serif;
 }
 
 header img {
@@ -73,7 +77,7 @@ section {
 section h2 {
     background-color: #dbc2a4;
     border-left: 5px solid #782221;
-    font-family: "Lato", sans-serif;
+    font-family: 'Lato', sans-serif;
 }
 section h3 {
     font-weight: bold;
