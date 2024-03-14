@@ -1,132 +1,148 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400&display=swap');
 
 @font-face {
-    font-family: "Raleway";
-    src: url('../ASSETS/FONTS/Raleway/Raleway-Regular.woff'), url('../ASSETS/FONTS/Raleway/Raleway-Bold.woff'), url('../ASSETS/FONTS/Raleway/Raleway-Italic.woff');
-    src: url('../ASSETS/FONTS/Raleway/Raleway-Regular.ttf') format('truetype'), url('../ASSETS/FONTS/Raleway/Raleway-Bold.ttf') format('truetype'), url('../ASSETS/FONTS/Raleway/Raleway-Italic.ttf') format('truetype');
+    font-family: 'Raleway' ;
+    src: url('../fonts/Raleway/Raleway-Regular.woff'), url('../fonts/Raleway/Raleway-Bold.woff'), url('../fonts/Raleway/Raleway-Italic.woff');
+    src: url('../fonts/Raleway/Raleway-Regular.ttf') format(truetype),url('../fonts/Raleway/Raleway-Bold.ttf') format(truetype), url('../fonts/Raleway/Raleway-Italic.ttf') format(truetype);
 }
 
-.all {
+body {
     width: 1160px;
     padding: 0px 5px 0px 5px;
     margin: auto;
     display: flex;
     flex-direction: column;
     align-items: center;
-    font-family: "Raleway", sans-serif;
+    font-family: 'Raleway', sans-serif;
     font-size: 1rem;
 }
 
-.en-tete {
+header {
+    width: 1160px;
+    padding-top: 10px;
     display: flex;
     flex-direction: column;
     align-items: center;
     background-color: #782221;
     color: white;
 }
-.en-tete__img {
+
+header span {
+    font-family: 'lato' , sans-serif;
+    font-size: 4rem;
+}
+
+header h1 {
+    font-size: 1rem;
+}
+
+header img {
     width: 100px;
     height: 100px;
     border-radius: 50%;
     box-shadow: 0px 0px 10px #8f8787;
 }
 
-.menu {
+header address {
     width: 1160px;
     background-color: #2c1d27;
-}
-.menu__contact {
-    padding: 0px 20px 0px 20px;
+    color: white;
     display: flex;
     flex-direction: row;
     justify-content:space-between;
     align-items: center;
 }
-.menu__adresse {
-    flex-basis: 387px;
-    text-align: start;
-    text-decoration: none;
-    color: white;
-}
-.menu__mail {
+
+header address a {
+    padding: 20px 0px 20px 0px;
     flex-basis: 387px;
     text-align: center;
-    text-decoration: none;
-    color: white;
-}
-.menu__tel {
-    flex-basis: 387px;
-    text-align: end;
-    text-decoration: none;
     color: white;
 }
 
-.centre {
+#address {
+    padding-left: 50px;
+    text-align: start;
+}
+
+#tel {
+    padding-right: 50px;
+    text-align: end;
+}
+
+main {
     width: 1160px;
     display: flex;
-    flex-direction: row-reverse;
+    flex-direction: row;
 }
 
-.main-content {
+section {
     padding: 0px 20px 0px 20px;
     flex-basis: 67%;
     border-right: thin solid black;
 }
-.main-content__titre {
+section h2 {
     background-color: #dbc2a4;
     border-left: 5px solid #782221;
-    font-family: "Lato", sans-serif;
+    font-family: 'Lato', sans-serif;
 }
-.main-content__sous-titre {
+section h3 {
     font-weight: bold;
 }
 
-.side-bar {
+aside {
     flex-basis: 33%;
     background-color: #782221;
 }
-.side-bar__propos {
+aside p {
     padding: 0px 20px 0px 20px;
     text-indent: 40px;
     text-align: justify;
     text-justify: inter-word;
     color: white;
 }
-.side-bar__titre {
+aside h2 {
     padding-left: 20px;
     background-color: #dbc2a4;
     font-family: 'Lato', sans-serif;
 }
-.side-bar__list {
+aside ul {
     color: white;
 }
 
-.pied-page {
+footer {
     width: 1160px;
-    padding: 0px;
+    padding-bottom: 20px;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
     align-items: center;
     background-color: #782221;
-}
-.pied-page__img {
-    width: 50PX;
-    height: 50px;
+    color: white;
 }
 
-.pied-page__img:hover {
+footer div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer img {
+    width: 50PX;
+    height: 50px;
+    padding: 15px;
+}
+
+footer img:hover {
     opacity: 0.5;
 }
-.link:hover {
+a:hover {
     text-decoration: underline;
 }
-.en-tete__img:hover {
+header img:hover {
     cursor: zoom-in;
 }
-.main-content__sous-titre:hover {
-    border-right: 5px solid #782221;
-}
-.main-content__text:hover {
+
+.border:hover {
     border-right: 5px solid #782221;
 }
