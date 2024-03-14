@@ -18,6 +18,8 @@ body {
 }
 
 header {
+    width: 1160px;
+    padding-top: 10px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -27,6 +29,11 @@ header {
 
 header span {
     font-family: 'lato' , sans-serif;
+    font-size: 4rem;
+}
+
+header h1 {
+    font-size: 1rem;
 }
 
 header img {
@@ -36,28 +43,31 @@ header img {
     box-shadow: 0px 0px 10px #8f8787;
 }
 
-address {
+header address {
     width: 1160px;
     background-color: #2c1d27;
-    flex-basis: 387px;
-    text-align: start;
     color: white;
-    padding: 0px 20px 0px 20px;
     display: flex;
     flex-direction: row;
     justify-content:space-between;
     align-items: center;
 }
 
-#mail {
+header address a {
+    padding: 20px 0px 20px 0px;
     flex-basis: 387px;
     text-align: center;
     color: white;
 }
+
+#address {
+    padding-left: 50px;
+    text-align: start;
+}
+
 #tel {
-    flex-basis: 387px;
+    padding-right: 50px;
     text-align: end;
-    color: white;
 }
 
 main {
@@ -102,11 +112,12 @@ aside ul {
 
 footer {
     width: 1160px;
-    padding: 0px;
+    padding-bottom: 20px;
     display: flex;
     flex-direction: column;
     align-items: center;
     background-color: #782221;
+    color: white;
 }
 
 footer div {
@@ -119,6 +130,7 @@ footer div {
 footer img {
     width: 50PX;
     height: 50px;
+    padding: 15px;
 }
 
 footer img:hover {
@@ -131,6 +143,6 @@ header img:hover {
     cursor: zoom-in;
 }
 
-section:hover {
+.border:hover {
     border-right: 5px solid #782221;
 }
